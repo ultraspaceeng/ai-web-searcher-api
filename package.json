@@ -2,9 +2,9 @@
     "name": "perplexity-search-server",
     "version": "1.0.0",
     "description": "Standalone search API for Perplexity Clone",
-    "main": "dist/index.js",
+    "main": "src/index.ts",
     "scripts": {
-        "start": "node src/index.ts",
+        "start": "node dist/index.js",
         "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
         "build": "tsc"
     },
